@@ -409,7 +409,3 @@ const App = () => {
 };
 
 export default App;
-
-// const sun = (a,b)=>{
-//     return a+b
-// }

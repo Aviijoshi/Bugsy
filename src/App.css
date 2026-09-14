@@ -290,3 +290,88 @@ pre {
   padding: 2px 6px;
   border-radius: 4px;
 }
+
+@media (max-width: 768px) {
+
+.navbar {
+    height: auto;
+    min-height: 4.5rem;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+.navbar .links {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+  }
+
+.navbar .right {
+    gap: 8px;
+  }
+
+.navbar .right .trans,
+.navbar .right .green-btn {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+.container {
+    height: auto;
+    min-height: calc(100vh - 4.5rem);
+    flex-direction: column;
+  }
+
+.container .left,.container .right {
+    width: 100% !important;
+    height: auto;
+  }
+
+.container .left {
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+.code-editor {
+    height: 55vh;
+  }
+.left-header {
+    padding: 15px 20px !important;
+    height: auto !important;
+    gap: 10px;
+  }
+
+.language-selector {
+    margin-left: 0;
+  }
+
+
+.container .green-btn {
+    margin-right: 0;
+  }
+.buttons {
+    padding: 10px !important;
+  }
+.gridBox {
+    grid-template-columns: 1fr;
+  }
+
+.explain-content {
+    padding: 15px;
+  }
+.security_audit_comp {
+    width: 100%;
+  }
+.warningCom .line {
+    width: 100px;
+    flex-shrink: 0;
+  }
+.warningCom h3 {
+    font-size: 14px;
+  }
+.right .w-full {
+    max-width: 100%;
+  }
+}
