@@ -34,6 +34,7 @@ Markdown: React Markdown
 Styling: Tailwind CSS + CSS
 Icons: React Icons
 Loading UI: React Spinners
+```
 🧠 How Bugsie Works
 Write / Paste Code
         ↓
@@ -55,7 +56,7 @@ Write / Paste Code
  Explain / Fix Code
 🔍 Core Capabilities
 Analyze
-
+```
 Bugsie reviews your code and dynamically generates:
 
 Overall code quality score
